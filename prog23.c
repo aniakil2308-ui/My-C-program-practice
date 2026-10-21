@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main(){
+int m;scanf("%d",&m);
+if(m>=90 && m<=100){
+printf("A");}
+if(m>=80 && m<=89){ 
+printf("B");}
+if(m>=70 && m<=79){  
+printf("C");}
+if(m>=60 && m<=69){  
+printf("D");}
+if(m<=60){
+printf("F");
+}
+}
+

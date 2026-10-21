@@ -1,10 +1,9 @@
 #include<stdio.h>
 int main(){
-int n=5;
-for(int i = 0;i<n;i++){
- for(int j=0;j<n;j++){
- printf("* ");
- }
- printf("\n");
+int d;
+printf("Enter the no of days:");
+scanf("%d",&d);
+printf("No of weeks=%d\n",d/7);
+printf("No of remaining days=%d\n",d%7);
+return 0;
 }
-} 

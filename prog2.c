@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main(){
-int n=5;
-for(int i = 0;i<n;i++){
- for(int j=0;j<=i;j++){
- printf("* ");
- }
- printf("\n");
+int cost,discount,dis;
+printf("Enter the cost,discount percentage: ");
+scanf("%d%d",&cost,&discount);
+dis=discount*cost/100;
+printf("total cost=%d\n",cost-dis);
+return 0;
 }
-} 
+
+
